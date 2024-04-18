@@ -5,7 +5,7 @@ public class OperLogico {
         boolean trabalho1 = false;
         boolean trabalho2 = false;
 
-      String mensagem = trabalho1 && trabalho2 ? "Vamos tomar sorvete e comprar a tv de 50": " ";
+      String mensagem = trabalho1 && trabalho2 ? "Vamos tomar sorvetes e comprar a tv de 50": " ";
       String mensagem2 = trabalho1 ^ trabalho2 ? " Vamos tomar sorvete e comprar a tv de 25": " ";
       String mensagem3 = trabalho1 && trabalho2 ? " ": " Sem sorvete";
 
