@@ -1,5 +1,6 @@
 package ApreWHILE.dESAFIO.Arraysss;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matriz {
@@ -28,6 +29,10 @@ public class Matriz {
         }
         double media = total/(qtdeAlunos*qtdeNotas);
         System.out.println("Média da turma é "+ media);
+
+        for (double[] notasDoAluno: notasDaTurma){
+            System.out.println(Arrays.toString(notasDoAluno));
+        }
 
         entrada.close();
     }
