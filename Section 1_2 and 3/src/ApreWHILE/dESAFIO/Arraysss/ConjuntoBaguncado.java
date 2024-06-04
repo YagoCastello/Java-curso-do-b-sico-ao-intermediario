@@ -37,7 +37,7 @@ public class ConjuntoBaguncado {
         conjunto.retainAll(nums);
         System.out.println(conjunto);
 
-        
+
         conjunto.clear();
         System.out.println(conjunto);
 
